@@ -1,9 +1,11 @@
 [gd_scene format=3 uid="uid://c8a0dn7po002e"]
 
+[ext_resource type="Script" uid="uid://b381brgnimvbf" path="res://script/game_2.gd" id="1_gl2qo"]
 [ext_resource type="PackedScene" uid="uid://bjhpw0kt3a7u8" path="res://scene/background2.tscn" id="1_rghe8"]
 [ext_resource type="PackedScene" uid="uid://cpskkrffj22e" path="res://scene/caption2.tscn" id="2_dgr1c"]
 
 [node name="game2" type="Node2D" unique_id=731880656]
+script = ExtResource("1_gl2qo")
 
 [node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_rghe8")]
 

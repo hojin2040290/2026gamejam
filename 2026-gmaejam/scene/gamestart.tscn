@@ -13,7 +13,7 @@ offset_left = 128.0
 offset_top = 128.0
 offset_right = 1792.0
 offset_bottom = 768.0
-theme_override_font_sizes/font_size = 75
+theme_override_font_sizes/font_size = 64
 text = "우끼끼끼끽우끼끼끼끽우끼끼끼끽
 우끼끼끼끽우끼끼끼끽우끼끼끼끽우끼끼
 우끼끼끼끽우끼끼끼끽우끼끼끼끽우끼끼끼끽"
@@ -21,10 +21,11 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_hy1wp")]
-offset_left = 128.0
+offset_left = 704.0
 offset_top = 768.0
-offset_right = 1792.0
+offset_right = 1216.0
 offset_bottom = 960.0
-theme_override_font_sizes/font_size = 75
+theme_override_font_sizes/font_size = 64
+toggle_mode = true
 text = "Game Start"
 script = ExtResource("3_qqqiq")
