@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://ba2vt8arpmabh"]
+
+[ext_resource type="PackedScene" uid="uid://ictbwddso51l" path="res://scene/background17.tscn" id="1_0i165"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_hy1wp"]
+[ext_resource type="Script" uid="uid://dpp6igpb0rfj8" path="res://script/button31.gd" id="3_qqqiq"]
+
+[node name="Game1" type="Node2D" unique_id=513142437]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_0i165")]
+
+[node name="Label" type="Label" parent="." unique_id=976846216]
+offset_left = 128.0
+offset_top = 128.0
+offset_right = 1792.0
+offset_bottom = 768.0
+theme_override_font_sizes/font_size = 75
+text = "우끼끼끼끽우끼끼끼끽우끼끼끼끽
+우끼끼끼끽우끼끼끼끽우끼끼끼끽우끼끼
+우끼끼끼끽우끼끼끼끽우끼끼끼끽우끼끼끼끽"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_hy1wp")]
+offset_left = 128.0
+offset_top = 768.0
+offset_right = 1792.0
+offset_bottom = 960.0
+theme_override_font_sizes/font_size = 75
+text = "Game Start"
+script = ExtResource("3_qqqiq")
