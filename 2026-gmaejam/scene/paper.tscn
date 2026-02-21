@@ -21,3 +21,13 @@ offset_right = 1040.0
 offset_bottom = 960.0
 theme_override_font_sizes/font_size = 25
 text = "back"
+
+[node name="Label" type="Label" parent="." unique_id=980026450]
+offset_left = 128.0
+offset_top = 128.0
+offset_right = 1792.0
+offset_bottom = 256.0
+theme_override_font_sizes/font_size = 50
+text = "I need four digits, but why are there only three alphabets?"
+horizontal_alignment = 1
+vertical_alignment = 1

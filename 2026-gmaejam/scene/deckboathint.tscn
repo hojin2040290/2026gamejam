@@ -9,10 +9,21 @@
 [node name="Background" parent="." unique_id=1139785965 instance=ExtResource("2_a23ka")]
 
 [node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_q4svp")]
-offset_left = 888.0
-offset_top = 960.0
-offset_right = 1032.0
-offset_bottom = 1024.0
+offset_left = 1648.0
+offset_top = 728.0
+offset_right = 1792.0
+offset_bottom = 792.0
 theme_override_font_sizes/font_size = 25
 text = "back"
 script = ExtResource("3_jtwr5")
+
+[node name="Label" type="Label" parent="." unique_id=266826335]
+offset_left = 64.0
+offset_top = 880.0
+offset_right = 1856.0
+offset_bottom = 1021.0
+theme_override_font_sizes/font_size = 50
+text = "What's the number that goes into that question mark? 
+Is it the machine’s password?"
+horizontal_alignment = 1
+vertical_alignment = 1

@@ -20,13 +20,14 @@ anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
 offset_left = -640.0
-offset_top = -152.0
+offset_top = -161.0
 offset_right = 320.0
-offset_bottom = -56.0
+offset_bottom = -48.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_font_sizes/font_size = 50
-text = "caption5"
+theme_override_font_sizes/font_size = 40
+text = "Finally got a life jacket!
+Let's use teleportation again."
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -36,6 +37,6 @@ offset_top = 928.0
 offset_right = 1576.0
 offset_bottom = 1024.0
 theme_override_font_sizes/font_size = 50
-text = "back"
+text = "USE"
 flat = true
 script = ExtResource("3_tiohm")

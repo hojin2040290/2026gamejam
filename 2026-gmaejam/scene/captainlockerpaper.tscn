@@ -16,3 +16,15 @@ offset_bottom = 904.0
 theme_override_font_sizes/font_size = 25
 text = "back"
 script = ExtResource("3_edoug")
+
+[node name="Label" type="Label" parent="." unique_id=1000588992]
+offset_left = 405.0
+offset_right = 1555.0
+offset_bottom = 384.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "Captain loves music. I’m sure that’s the clue.
+Let’s find a rule between the score and Captain loves music.
+"
+horizontal_alignment = 1
+vertical_alignment = 1

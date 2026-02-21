@@ -1,8 +1,8 @@
-[gd_scene format=3 uid="uid://cqk86ww1otwke"]
+[gd_scene format=3 uid="uid://crf6qfb1jm4hr"]
 
-[ext_resource type="Texture2D" uid="uid://dbmr31v3pstwb" path="res://assets/caption_background.PNG" id="1_ryt0u"]
-[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_em7le"]
-[ext_resource type="Script" uid="uid://bj44s4bqi3s4q" path="res://script/button29.gd" id="3_ryt0u"]
+[ext_resource type="Texture2D" uid="uid://dbmr31v3pstwb" path="res://assets/caption_background.PNG" id="1_4hmd2"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_yqnka"]
+[ext_resource type="Script" uid="uid://bqhlie1shn8qi" path="res://script/button16.gd" id="3_4hmd2"]
 
 [node name="Caption1" type="ParallaxBackground" unique_id=1253108977]
 
@@ -11,7 +11,7 @@
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=94560187]
 position = Vector2(960, 975.99994)
 scale = Vector2(2.6143792, 1.1764705)
-texture = ExtResource("1_ryt0u")
+texture = ExtResource("1_4hmd2")
 
 [node name="Label" type="Label" parent="." unique_id=607189801]
 anchors_preset = 7
@@ -26,17 +26,17 @@ offset_bottom = -49.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_font_sizes/font_size = 40
-text = "There's a clue to the boat! 
-Let's take a closer look."
+text = "I need to find a life jacket! 
+What should I look at first?"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_em7le")]
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_yqnka")]
 offset_left = 1256.0
 offset_top = 928.0
 offset_right = 1576.0
 offset_bottom = 1024.0
 theme_override_font_sizes/font_size = 50
-text = "LOOK"
+text = "NEXT"
 flat = true
-script = ExtResource("3_ryt0u")
+script = ExtResource("3_4hmd2")

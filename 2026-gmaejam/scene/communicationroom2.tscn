@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://di66qnpu1mhbh"]
+
+[ext_resource type="PackedScene" uid="uid://mc4nk56em72s" path="res://scene/background6.tscn" id="1_rhqt2"]
+[ext_resource type="PackedScene" uid="uid://dbnrelwwdh4eg" path="res://scene/caption12.tscn" id="2_rhqt2"]
+
+[node name="Communicationroom" type="Node2D" unique_id=882068659]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_rhqt2")]
+
+[node name="Caption1" parent="." unique_id=1253108977 instance=ExtResource("2_rhqt2")]

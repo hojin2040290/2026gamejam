@@ -16,4 +16,12 @@ theme_override_font_sizes/font_size = 36
 placeholder_text = "click here"
 script = ExtResource("2_xtm2w")
 
+[node name="Label" type="Label" parent="." unique_id=2113484809]
+offset_right = 1920.0
+offset_bottom = 128.0
+theme_override_font_sizes/font_size = 40
+text = "If I follow the arrows, can I know the meaning of the password?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [connection signal="text_changed" from="TextEdit" to="TextEdit" method="_on_text_changed"]

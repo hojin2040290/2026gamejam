@@ -5,8 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_l0sie"]
 [ext_resource type="Script" uid="uid://dnwft76a27kfj" path="res://script/button6.gd" id="3_eo8ay"]
 [ext_resource type="Script" uid="uid://dauxs7dw72fl0" path="res://script/button9.gd" id="3_taqj2"]
-[ext_resource type="Script" uid="uid://5w3xbjmryal2" path="res://script/button8.gd" id="4_ewyw7"]
 [ext_resource type="Script" uid="uid://d2kckmf8tdydb" path="res://script/button7.gd" id="4_smmy0"]
+[ext_resource type="Script" uid="uid://b8xucruvqiio8" path="res://script/button32.gd" id="6_0oqq0"]
 
 [node name="game2" type="Node2D" unique_id=731880656]
 script = ExtResource("1_0oqq0")
@@ -35,7 +35,7 @@ offset_top = 848.0
 offset_right = 856.0
 offset_bottom = 960.0
 flat = true
-script = ExtResource("4_ewyw7")
+script = ExtResource("6_0oqq0")
 
 [node name="Button2" parent="." unique_id=540475113 instance=ExtResource("2_l0sie")]
 offset_left = 984.0

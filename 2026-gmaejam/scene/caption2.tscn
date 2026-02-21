@@ -20,7 +20,7 @@ offset_top = 928.0
 offset_right = 1568.0
 offset_bottom = 1024.0
 theme_override_font_sizes/font_size = 50
-text = "paper"
+text = "CLUE"
 flat = true
 script = ExtResource("3_up1eh")
 
@@ -30,6 +30,6 @@ offset_top = 928.0
 offset_right = 960.0
 offset_bottom = 1024.0
 theme_override_font_sizes/font_size = 50
-text = "box"
+text = "LOCK"
 flat = true
 script = ExtResource("4_mec65")

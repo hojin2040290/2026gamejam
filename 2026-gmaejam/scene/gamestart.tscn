@@ -13,10 +13,12 @@ offset_left = 128.0
 offset_top = 128.0
 offset_right = 1792.0
 offset_bottom = 768.0
-theme_override_font_sizes/font_size = 64
-text = "우끼끼끼끽우끼끼끼끽우끼끼끼끽
-우끼끼끼끽우끼끼끼끽우끼끼끼끽우끼끼
-우끼끼끼끽우끼끼끼끽우끼끼끼끽우끼끼끼끽"
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 14
+theme_override_font_sizes/font_size = 80
+text = "Room Escape Game 
+to escape from a Sinking
+Cruise"
 horizontal_alignment = 1
 vertical_alignment = 1
 

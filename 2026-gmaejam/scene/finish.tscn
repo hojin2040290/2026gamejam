@@ -5,3 +5,14 @@
 [node name="Finish" type="Node2D" unique_id=512595745]
 
 [node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_g0qo3")]
+
+[node name="Label" type="Label" parent="." unique_id=430376089]
+offset_left = 128.0
+offset_top = 896.0
+offset_right = 1792.0
+offset_bottom = 1024.0
+theme_override_font_sizes/font_size = 40
+text = "I finally escaped the cruise! Let's gohome
+when the rescue team comes."
+horizontal_alignment = 1
+vertical_alignment = 1
