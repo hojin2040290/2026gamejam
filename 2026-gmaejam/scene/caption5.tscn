@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://dp7d7ddif4cyg"]
+
+[ext_resource type="Texture2D" uid="uid://dbmr31v3pstwb" path="res://assets/caption_background.PNG" id="1_exysg"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_tiohm"]
+[ext_resource type="Script" uid="uid://cq2mily8n6vt" path="res://script/button12.gd" id="3_tiohm"]
+
+[node name="Caption1" type="ParallaxBackground" unique_id=1253108977]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=1612288456]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=94560187]
+position = Vector2(960, 975.99994)
+scale = Vector2(2.6143792, 1.1764705)
+texture = ExtResource("1_exysg")
+
+[node name="Label" type="Label" parent="." unique_id=607189801]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -640.0
+offset_top = -152.0
+offset_right = 320.0
+offset_bottom = -56.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 50
+text = "caption5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_tiohm")]
+offset_left = 1256.0
+offset_top = 928.0
+offset_right = 1576.0
+offset_bottom = 1024.0
+theme_override_font_sizes/font_size = 50
+text = "back"
+flat = true
+script = ExtResource("3_tiohm")

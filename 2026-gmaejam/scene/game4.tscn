@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://5roisiwovhhk"]
+
+[ext_resource type="PackedScene" uid="uid://c0ahkf3ft1u8k" path="res://scene/background5.tscn" id="1_x1ife"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_l0sie"]
+[ext_resource type="Script" uid="uid://dnwft76a27kfj" path="res://script/button6.gd" id="3_eo8ay"]
+[ext_resource type="Script" uid="uid://dauxs7dw72fl0" path="res://script/button9.gd" id="3_taqj2"]
+[ext_resource type="Script" uid="uid://5w3xbjmryal2" path="res://script/button8.gd" id="4_ewyw7"]
+[ext_resource type="Script" uid="uid://d2kckmf8tdydb" path="res://script/button7.gd" id="4_smmy0"]
+
+[node name="game2" type="Node2D" unique_id=731880656]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_x1ife")]
+
+[node name="Button4" parent="." unique_id=277737288 instance=ExtResource("2_l0sie")]
+offset_left = 1208.0
+offset_top = 848.0
+offset_right = 1504.0
+offset_bottom = 960.0
+flat = true
+script = ExtResource("3_taqj2")
+
+[node name="Button" parent="." unique_id=1179080037 instance=ExtResource("2_l0sie")]
+offset_left = 344.0
+offset_top = 376.0
+offset_right = 704.0
+offset_bottom = 488.0
+flat = true
+script = ExtResource("3_eo8ay")
+
+[node name="Button3" parent="." unique_id=807069728 instance=ExtResource("2_l0sie")]
+offset_left = 232.0
+offset_top = 848.0
+offset_right = 856.0
+offset_bottom = 960.0
+flat = true
+script = ExtResource("4_ewyw7")
+
+[node name="Button2" parent="." unique_id=540475113 instance=ExtResource("2_l0sie")]
+offset_left = 984.0
+offset_top = 376.0
+offset_right = 1712.0
+offset_bottom = 488.0
+flat = true
+script = ExtResource("4_smmy0")

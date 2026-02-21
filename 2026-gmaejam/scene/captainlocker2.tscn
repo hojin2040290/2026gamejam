@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://7drmpeqcis0g"]
+
+[ext_resource type="PackedScene" uid="uid://4fdyp7iutsj6" path="res://scene/background10.tscn" id="1_1mr3f"]
+[ext_resource type="Script" uid="uid://d3vxd16i7mriv" path="res://script/unlock2.gd" id="2_fck5l"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="3_idd3x"]
+[ext_resource type="Script" uid="uid://bqhlie1shn8qi" path="res://script/button16.gd" id="4_eqb56"]
+
+[node name="Captainlocker2" type="Node2D" unique_id=1507805011]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_1mr3f")]
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=1761267366]
+offset_left = 864.0
+offset_top = 544.0
+offset_right = 1056.0
+offset_bottom = 616.0
+theme_override_font_sizes/font_size = 25
+placeholder_text = "click here"
+script = ExtResource("2_fck5l")
+
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("3_idd3x")]
+offset_left = 888.0
+offset_top = 840.0
+offset_right = 1032.0
+offset_bottom = 904.0
+theme_override_font_sizes/font_size = 25
+text = "back"
+script = ExtResource("4_eqb56")
+
+[connection signal="text_changed" from="TextEdit" to="TextEdit" method="_on_text_changed"]

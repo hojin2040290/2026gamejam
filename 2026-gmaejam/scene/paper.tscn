@@ -1,3 +1,23 @@
 [gd_scene format=3 uid="uid://butdfvcgbk8f8"]
 
+[ext_resource type="Texture2D" uid="uid://dwxq1mwf7y5gs" path="res://assets/sea.png" id="1_4rbxu"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_4rbxu"]
+
 [node name="Paper" type="Node2D" unique_id=192843537]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." unique_id=1793397004]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" unique_id=905671276]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer" unique_id=1608265672]
+position = Vector2(960, 540)
+scale = Vector2(1.25, 1.0546875)
+texture = ExtResource("1_4rbxu")
+
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_4rbxu")]
+offset_left = 880.0
+offset_top = 896.0
+offset_right = 1040.0
+offset_bottom = 960.0
+theme_override_font_sizes/font_size = 25
+text = "back"

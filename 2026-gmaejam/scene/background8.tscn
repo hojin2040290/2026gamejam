@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cdxpbc6uscgyv"]
+
+[ext_resource type="Texture2D" uid="uid://bnuaxjuq8kj6y" path="res://assets/captainroom.png" id="1_i5qfs"]
+
+[node name="Background" type="ParallaxBackground" unique_id=1139785965]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=729204450]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=1009346786]
+position = Vector2(960, 540)
+scale = Vector2(1.25, 1.0546875)
+texture = ExtResource("1_i5qfs")

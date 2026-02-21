@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cs08vl5etgni4"]
+
+[ext_resource type="PackedScene" uid="uid://g43vdbosxhgq" path="res://scene/background9.tscn" id="1_d5446"]
+[ext_resource type="PackedScene" uid="uid://qjfefdaklekt" path="res://scene/caption6.tscn" id="2_1b8xo"]
+
+[node name="Captainlocker" type="Node2D" unique_id=1608372586]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_d5446")]
+
+[node name="Caption1" parent="." unique_id=1253108977 instance=ExtResource("2_1b8xo")]

@@ -1,0 +1,111 @@
+[gd_scene format=3 uid="uid://c442ddetd2rme"]
+
+[ext_resource type="PackedScene" uid="uid://sard7nxh4p1b" path="res://scene/background7.tscn" id="1_75a8u"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_q2gmn"]
+[ext_resource type="Script" uid="uid://deicvqgkpg1up" path="res://script/button17.gd" id="3_fig48"]
+[ext_resource type="Script" uid="uid://8o45gkgxm50v" path="res://script/button18.gd" id="4_23nbc"]
+[ext_resource type="Script" uid="uid://x5chj47vpmb7" path="res://script/button19.gd" id="5_lprix"]
+[ext_resource type="Script" uid="uid://cdj4ytqlypmv8" path="res://script/button20.gd" id="6_t5rna"]
+[ext_resource type="Script" uid="uid://d2qhd2ebb7x2v" path="res://script/button21.gd" id="7_13n0f"]
+[ext_resource type="Script" uid="uid://b6bul0685mfb4" path="res://script/button22.gd" id="8_bkjwe"]
+[ext_resource type="Script" uid="uid://cfv6lefx10khq" path="res://script/button23.gd" id="9_nm4w0"]
+[ext_resource type="Script" uid="uid://b3tsiba2vdg0m" path="res://script/button24.gd" id="10_g2tlw"]
+[ext_resource type="Script" uid="uid://bbjhdqgb7sxse" path="res://script/button25.gd" id="11_52blu"]
+[ext_resource type="Script" uid="uid://d1q0gdw458rib" path="res://script/button26.gd" id="12_ic4sd"]
+[ext_resource type="Script" uid="uid://qvhs5xlwsosl" path="res://script/deckdisplay.gd" id="13_euhk8"]
+
+[node name="Deck" type="Node2D" unique_id=1740882408]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_75a8u")]
+
+[node name="Button1" parent="." unique_id=277737288 instance=ExtResource("2_q2gmn")]
+offset_left = 1272.0
+offset_top = 512.0
+offset_right = 1336.0
+offset_bottom = 544.0
+flat = true
+script = ExtResource("3_fig48")
+
+[node name="Button2" parent="." unique_id=331770563 instance=ExtResource("2_q2gmn")]
+offset_left = 1360.0
+offset_top = 512.0
+offset_right = 1424.0
+offset_bottom = 544.0
+flat = true
+script = ExtResource("4_23nbc")
+
+[node name="Button3" parent="." unique_id=756479572 instance=ExtResource("2_q2gmn")]
+offset_left = 1448.0
+offset_top = 512.0
+offset_right = 1512.0
+offset_bottom = 544.0
+flat = true
+script = ExtResource("5_lprix")
+
+[node name="Button4" parent="." unique_id=1345405328 instance=ExtResource("2_q2gmn")]
+offset_left = 1280.0
+offset_top = 568.0
+offset_right = 1344.0
+offset_bottom = 600.0
+flat = true
+script = ExtResource("6_t5rna")
+
+[node name="Button5" parent="." unique_id=178998420 instance=ExtResource("2_q2gmn")]
+offset_left = 1368.0
+offset_top = 568.0
+offset_right = 1432.0
+offset_bottom = 600.0
+flat = true
+script = ExtResource("7_13n0f")
+
+[node name="Button6" parent="." unique_id=2088251496 instance=ExtResource("2_q2gmn")]
+offset_left = 1456.0
+offset_top = 568.0
+offset_right = 1520.0
+offset_bottom = 600.0
+flat = true
+script = ExtResource("8_bkjwe")
+
+[node name="Button7" parent="." unique_id=60051267 instance=ExtResource("2_q2gmn")]
+offset_left = 1280.0
+offset_top = 616.0
+offset_right = 1344.0
+offset_bottom = 656.0
+flat = true
+script = ExtResource("9_nm4w0")
+metadata/_edit_use_anchors_ = true
+
+[node name="Button8" parent="." unique_id=1253846389 instance=ExtResource("2_q2gmn")]
+offset_left = 1376.0
+offset_top = 616.0
+offset_right = 1440.0
+offset_bottom = 656.0
+flat = true
+script = ExtResource("10_g2tlw")
+metadata/_edit_use_anchors_ = true
+
+[node name="Button9" parent="." unique_id=1354916165 instance=ExtResource("2_q2gmn")]
+offset_left = 1464.0
+offset_top = 616.0
+offset_right = 1528.0
+offset_bottom = 656.0
+flat = true
+script = ExtResource("11_52blu")
+metadata/_edit_use_anchors_ = true
+
+[node name="Button10" parent="." unique_id=468439410 instance=ExtResource("2_q2gmn")]
+offset_left = 1384.0
+offset_top = 672.0
+offset_right = 1448.0
+offset_bottom = 712.0
+flat = true
+script = ExtResource("12_ic4sd")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="." unique_id=761555415]
+offset_left = 1272.0
+offset_top = 400.0
+offset_right = 1528.0
+offset_bottom = 431.0
+theme_override_font_sizes/font_size = 25
+script = ExtResource("13_euhk8")

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bnom6lf5hccuq"]
+
+[ext_resource type="PackedScene" uid="uid://dc6diuv0jk133" path="res://scene/background13.tscn" id="1_d5r4x"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_fhu72"]
+[ext_resource type="Script" uid="uid://bqhlie1shn8qi" path="res://script/button16.gd" id="3_edoug"]
+
+[node name="Captainlocker2" type="Node2D" unique_id=1507805011]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_d5r4x")]
+
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_fhu72")]
+offset_left = 888.0
+offset_top = 840.0
+offset_right = 1032.0
+offset_bottom = 904.0
+theme_override_font_sizes/font_size = 25
+text = "back"
+script = ExtResource("3_edoug")

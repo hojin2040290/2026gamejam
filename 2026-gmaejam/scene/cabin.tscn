@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://buroyps2omiyt"]
+
+[ext_resource type="PackedScene" uid="uid://crjkv2ohvepqa" path="res://scene/background1.tscn" id="1_sbae5"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_ui2yy"]
+[ext_resource type="Script" uid="uid://wf5gsmpippqq" path="res://script/button10.gd" id="3_h6p4q"]
+
+[node name="Cabin" type="Node2D" unique_id=1342543190]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_sbae5")]
+
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_ui2yy")]
+offset_left = 880.0
+offset_top = 896.0
+offset_right = 1040.0
+offset_bottom = 954.0
+theme_override_font_sizes/font_size = 36
+text = "back"
+script = ExtResource("3_h6p4q")

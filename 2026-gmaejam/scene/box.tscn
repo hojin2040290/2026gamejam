@@ -1,3 +1,28 @@
 [gd_scene format=3 uid="uid://b7y2kmwsepkxa"]
 
+[ext_resource type="PackedScene" uid="uid://disd0jvyx5jbj" path="res://scene/background3.tscn" id="1_dmwsn"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_3tsfx"]
+[ext_resource type="Script" uid="uid://c0ujmv2dpqy7m" path="res://script/unlock.gd" id="3_5jxcw"]
+
 [node name="Box" type="Node2D" unique_id=1158635108]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_dmwsn")]
+
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_3tsfx")]
+offset_left = 880.0
+offset_top = 896.0
+offset_right = 1040.0
+offset_bottom = 954.0
+theme_override_font_sizes/font_size = 36
+text = "back"
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=1207154401]
+offset_left = 736.0
+offset_top = 576.0
+offset_right = 1176.0
+offset_bottom = 696.0
+theme_override_font_sizes/font_size = 50
+placeholder_text = "click here"
+script = ExtResource("3_5jxcw")
+
+[connection signal="text_changed" from="TextEdit" to="TextEdit" method="_on_text_changed"]

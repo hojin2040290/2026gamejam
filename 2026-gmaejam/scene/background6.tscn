@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://mc4nk56em72s"]
+
+[ext_resource type="Texture2D" uid="uid://dki06d2l3q6ms" path="res://assets/communicationroom.png" id="1_6sn8g"]
+
+[node name="Background" type="ParallaxBackground" unique_id=1139785965]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=729204450]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=1009346786]
+position = Vector2(960, 540)
+scale = Vector2(1.25, 1.0546875)
+texture = ExtResource("1_6sn8g")

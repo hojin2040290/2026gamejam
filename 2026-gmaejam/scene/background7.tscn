@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://sard7nxh4p1b"]
+
+[ext_resource type="Texture2D" uid="uid://ddy2wrxd8cyd1" path="res://assets/deck.png" id="1_tx247"]
+
+[node name="Background" type="ParallaxBackground" unique_id=1139785965]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=729204450]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=1009346786]
+position = Vector2(960, 540)
+scale = Vector2(1.25, 1.0546875)
+texture = ExtResource("1_tx247")
