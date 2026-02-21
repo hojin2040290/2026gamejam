@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c75kolg8nh2em"]
 
 [ext_resource type="PackedScene" uid="uid://ceh68ogkc2ugy" path="res://scene/background12.tscn" id="1_70xr7"]
-[ext_resource type="Script" uid="uid://c0ujmv2dpqy7m" path="res://script/unlock.gd" id="2_xtm2w"]
+[ext_resource type="Script" uid="uid://dijxloj67oj3m" path="res://script/unlock3.gd" id="2_xtm2w"]
 
 [node name="Communicationroomcomputer" type="Node2D" unique_id=1156258050]
 
