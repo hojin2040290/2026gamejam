@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://5roisiwovhhk"]
 
+[ext_resource type="Script" uid="uid://dq77metymx6ps" path="res://script/game_4.gd" id="1_0oqq0"]
 [ext_resource type="PackedScene" uid="uid://c0ahkf3ft1u8k" path="res://scene/background5.tscn" id="1_x1ife"]
 [ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_l0sie"]
 [ext_resource type="Script" uid="uid://dnwft76a27kfj" path="res://script/button6.gd" id="3_eo8ay"]
@@ -8,6 +9,7 @@
 [ext_resource type="Script" uid="uid://d2kckmf8tdydb" path="res://script/button7.gd" id="4_smmy0"]
 
 [node name="game2" type="Node2D" unique_id=731880656]
+script = ExtResource("1_0oqq0")
 
 [node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_x1ife")]
 
@@ -42,3 +44,18 @@ offset_right = 1712.0
 offset_bottom = 488.0
 flat = true
 script = ExtResource("4_smmy0")
+
+[node name="Label" type="Label" parent="." unique_id=2102422832]
+offset_left = 968.0
+offset_top = 528.0
+offset_right = 1744.0
+offset_bottom = 808.0
+theme_override_font_sizes/font_size = 50
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="." unique_id=2056796997]
+wait_time = 3.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="Button4" method="_on_timer_timeout"]

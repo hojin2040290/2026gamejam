@@ -1,7 +1,19 @@
 [gd_scene format=3 uid="uid://c75kolg8nh2em"]
 
 [ext_resource type="PackedScene" uid="uid://ceh68ogkc2ugy" path="res://scene/background12.tscn" id="1_70xr7"]
+[ext_resource type="Script" uid="uid://c0ujmv2dpqy7m" path="res://script/unlock.gd" id="2_xtm2w"]
 
 [node name="Communicationroomcomputer" type="Node2D" unique_id=1156258050]
 
 [node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_70xr7")]
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=1086479752]
+offset_left = 504.0
+offset_top = 856.0
+offset_right = 1160.0
+offset_bottom = 920.0
+theme_override_font_sizes/font_size = 36
+placeholder_text = "click here"
+script = ExtResource("2_xtm2w")
+
+[connection signal="text_changed" from="TextEdit" to="TextEdit" method="_on_text_changed"]

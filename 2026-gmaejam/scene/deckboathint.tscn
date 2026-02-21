@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://xkji4aiy3qfj"]
+
+[ext_resource type="PackedScene" uid="uid://bybq4o8s5ryrb" path="res://scene/background15.tscn" id="2_a23ka"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_q4svp"]
+[ext_resource type="Script" uid="uid://dpn238s4jl62f" path="res://script/button30.gd" id="3_jtwr5"]
+
+[node name="Deck" type="Node2D" unique_id=1740882408]
+
+[node name="Background" parent="." unique_id=1139785965 instance=ExtResource("2_a23ka")]
+
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_q4svp")]
+offset_left = 888.0
+offset_top = 960.0
+offset_right = 1032.0
+offset_bottom = 1024.0
+theme_override_font_sizes/font_size = 25
+text = "back"
+script = ExtResource("3_jtwr5")

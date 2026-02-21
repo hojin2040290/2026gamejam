@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://ceh68ogkc2ugy"]
+[gd_scene format=3 uid="uid://dpq58kre631lb"]
 
-[ext_resource type="Texture2D" uid="uid://ctgy51np5n4gl" path="res://assets/computerv2.png" id="1_mqitp"]
+[ext_resource type="Texture2D" uid="uid://lee43wgd072b" path="res://assets/finish.png" id="1_5evjg"]
 
 [node name="Background" type="ParallaxBackground" unique_id=1139785965]
 
@@ -9,4 +9,4 @@
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=1009346786]
 position = Vector2(960, 540)
 scale = Vector2(1.25, 1.0546875)
-texture = ExtResource("1_mqitp")
+texture = ExtResource("1_5evjg")

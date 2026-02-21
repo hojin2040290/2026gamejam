@@ -4,8 +4,7 @@ var n = 0
 
 func _on_pressed() -> void:
 	while n < 4:
-		if Manager.DeckNumber[n] == "":
-			Manager.DeckNumber[n] = "4"
-			break
+		if Manager.DeckNumber[n] != "":
+			Manager.DeckNumber[n] = ""
 		n+=1
 	n = 0

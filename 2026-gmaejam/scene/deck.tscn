@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://c442ddetd2rme"]
 
+[ext_resource type="Script" uid="uid://5n6xxjt6ktge" path="res://script/deck.gd" id="1_23nbc"]
 [ext_resource type="PackedScene" uid="uid://sard7nxh4p1b" path="res://scene/background7.tscn" id="1_75a8u"]
 [ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_q2gmn"]
 [ext_resource type="Script" uid="uid://deicvqgkpg1up" path="res://script/button17.gd" id="3_fig48"]
@@ -12,9 +13,11 @@
 [ext_resource type="Script" uid="uid://b3tsiba2vdg0m" path="res://script/button24.gd" id="10_g2tlw"]
 [ext_resource type="Script" uid="uid://bbjhdqgb7sxse" path="res://script/button25.gd" id="11_52blu"]
 [ext_resource type="Script" uid="uid://d1q0gdw458rib" path="res://script/button26.gd" id="12_ic4sd"]
-[ext_resource type="Script" uid="uid://qvhs5xlwsosl" path="res://script/deckdisplay.gd" id="13_euhk8"]
+[ext_resource type="Script" uid="uid://ckr2f4mm1yvcj" path="res://script/button27.gd" id="14_23nbc"]
+[ext_resource type="PackedScene" uid="uid://bb365iknf1373" path="res://scene/caption8.tscn" id="15_lprix"]
 
 [node name="Deck" type="Node2D" unique_id=1740882408]
+script = ExtResource("1_23nbc")
 
 [node name="Background" parent="." unique_id=1139785965 instance=ExtResource("1_75a8u")]
 
@@ -102,10 +105,49 @@ flat = true
 script = ExtResource("12_ic4sd")
 metadata/_edit_use_anchors_ = true
 
-[node name="Label" type="Label" parent="." unique_id=761555415]
+[node name="Label1" type="Label" parent="." unique_id=2137036554]
 offset_left = 1272.0
-offset_top = 400.0
+offset_top = 392.0
+offset_right = 1312.0
+offset_bottom = 434.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="." unique_id=366247679]
+offset_left = 1344.0
+offset_top = 392.0
+offset_right = 1384.0
+offset_bottom = 434.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="." unique_id=1316937916]
+offset_left = 1416.0
+offset_top = 392.0
+offset_right = 1456.0
+offset_bottom = 434.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="." unique_id=1492989627]
+offset_left = 1488.0
+offset_top = 392.0
 offset_right = 1528.0
-offset_bottom = 431.0
-theme_override_font_sizes/font_size = 25
-script = ExtResource("13_euhk8")
+offset_bottom = 434.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button11" parent="." unique_id=1063416997 instance=ExtResource("2_q2gmn")]
+offset_left = 1288.0
+offset_top = 672.0
+offset_right = 1352.0
+offset_bottom = 712.0
+flat = true
+script = ExtResource("14_23nbc")
+metadata/_edit_use_anchors_ = true
+
+[node name="Caption1" parent="." unique_id=1253108977 instance=ExtResource("15_lprix")]
