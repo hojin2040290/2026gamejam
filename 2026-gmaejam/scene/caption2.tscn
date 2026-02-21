@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://cpskkrffj22e"]
+
+[ext_resource type="Texture2D" uid="uid://dbmr31v3pstwb" path="res://assets/caption_background.PNG" id="1_dc4br"]
+[ext_resource type="PackedScene" uid="uid://db1vbldknvn6q" path="res://scene/button.tscn" id="2_paqjj"]
+[ext_resource type="Script" uid="uid://ckle1kh3kno7s" path="res://script/button2.gd" id="3_up1eh"]
+[ext_resource type="Script" uid="uid://k5oloifsnmae" path="res://script/button3.gd" id="4_mec65"]
+
+[node name="Caption1" type="ParallaxBackground" unique_id=1253108977]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." unique_id=1612288456]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer" unique_id=94560187]
+position = Vector2(960, 975.99994)
+scale = Vector2(2.6143792, 1.1764705)
+texture = ExtResource("1_dc4br")
+
+[node name="Button" parent="." unique_id=277737288 instance=ExtResource("2_paqjj")]
+offset_left = 960.0
+offset_top = 928.0
+offset_right = 1568.0
+offset_bottom = 1024.0
+theme_override_font_sizes/font_size = 50
+text = "paper"
+flat = true
+script = ExtResource("3_up1eh")
+
+[node name="Button2" parent="." unique_id=45344612 instance=ExtResource("2_paqjj")]
+offset_left = 352.0
+offset_top = 928.0
+offset_right = 960.0
+offset_bottom = 1024.0
+theme_override_font_sizes/font_size = 50
+text = "box"
+flat = true
+script = ExtResource("4_mec65")
