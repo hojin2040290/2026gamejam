@@ -1,5 +1,9 @@
 [gd_scene format=3 uid="uid://b6kei555x0off"]
 
+[ext_resource type="PackedScene" uid="uid://beorf44pewm2w" path="res://scene/character.tscn" id="1_itxqv"]
+
 [node name="main" type="Node2D" unique_id=2012136585]
 
 [node name="background" type="ParallaxBackground" parent="." unique_id=291609181]
+
+[node name="Character" parent="." unique_id=149864148 instance=ExtResource("1_itxqv")]
